@@ -1,0 +1,8 @@
+Serviciul de blocare/deblocare dispozitive USB s-a pornit la 26.02.2019 20:34:09
+Serviciul deblocare/deblocare dispozitive USB s-a oprit la 26.02.2019 20:34:46
+Serviciul de blocare/deblocare dispozitive USB s-a pornit la 26.02.2019 20:34:47
+Dispozitivul USB\VID_174C&PID_5136\00000000000000000000 s-a deconectat la 26.02.2019 20:35:27
+Dispozitivul USBSTOR\DISK&VEN_ASMT&PROD_2105&REV_0\00000000000000000000&0 s-a deconectat la 26.02.2019 20:35:27
+Dispozitivul USB\VID_174C&PID_5136\00000000000000000000 s-a conectat la 26.02.2019 20:35:45
+Dispozitivul USBSTOR\DISK&VEN_ASMT&PROD_2105&REV_0\00000000000000000000&0 s-a conectat la 26.02.2019 20:35:47
+Serviciul deblocare/deblocare dispozitive USB s-a oprit la 26.02.2019 20:41:15

@@ -1,0 +1,17 @@
+C:\Users\coste\source\repos\bserv\BlocareUSB\bin\Debug\BlocareUSB.exe
+C:\Users\coste\source\repos\bserv\BlocareUSB\bin\Debug\BlocareUSB.pdb
+C:\Users\coste\source\repos\bserv\BlocareUSB\bin\Debug\SDDUSB.dll
+C:\Users\coste\source\repos\bserv\BlocareUSB\bin\Debug\SDDUSB.pdb
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\USB Blocker.csprojAssemblyReference.cache
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\MainWindow.g.cs
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\App.g.cs
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\BlocareUSB_MarkupCompile.cache
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\BlocareUSB_MarkupCompile.lref
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\MainWindow.baml
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\BlocareUSB.g.resources
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\BlocareUSB.Properties.Resources.resources
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\USB Blocker.csproj.GenerateResource.cache
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\USB Blocker.csproj.CoreCompileInputs.cache
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\USB Blocker.csproj.CopyComplete
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\BlocareUSB.exe
+C:\Users\coste\source\repos\bserv\BlocareUSB\obj\Debug\BlocareUSB.pdb

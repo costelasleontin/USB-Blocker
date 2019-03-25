@@ -1,0 +1,4 @@
+Nota 1: Aplicatia BlocareUSB permite blocarea dispozitivelor de stocare USB, dispozitivelor portabile, a hub-urilor USB precum si a o serie de controlere USB ( de exemplu controllere USB ale imprimantelor)
+Nota 2: O serie de dispozitive ca de exemplu controlerele de imprimante sau hub-urile USB nu sunt activate/dezactivate imediat, ci doar dupa restartarea sistemului
+Nota 3: Pentru dispozitivele de stocare USB activarea/dezactivarea este efectuata imediat
+Nota 4: Unele dispozitive de stocare, ca de exemplu hard disk-urile externe, poseda mai multe interfete de conectare cu sistemul si necesita dezactivarea ambelor interfete pentru a nu fi accesibile ( spre exemplu pentru un SSD extern este necesara dezactivarea atat a interfetei WPD-Windows Portable Devices cat si a interfetei USB-Universal Serial Bus)  

@@ -1,0 +1,72 @@
+﻿<Window x:Name="mainWindow" x:Class="USB_Blocker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:USB_Blocker"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="450" MinWidth="600" ResizeMode="CanResizeWithGrip" SizeChanged="Window_SizeChanged">
+    <TabControl x:Name="tabcontrolDispozUsb" Margin="10,0,10,10">
+        <TabItem Header="Dispozitive">
+            <Grid Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="350" >
+                    <Button Content="Actualizare lista dispozitive" ToolTip="Se reincarca lista de dispozitive" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="193" Height="40" FontSize="14" Click="Button_Click_4"/>
+                    <Button Content="Aplica" ToolTip="Se aplica si se salveaza lista cu modificarile efectuate" Grid.Row="1" HorizontalAlignment="Right" Margin="0,10,0,0" VerticalAlignment="Center" Width="126" Height="40" FontSize="14" Click="Button_Click_1" Grid.Column="1"/>
+                </Grid>
+                <DataGrid x:Name="dataGridListaDispozUsb" Grid.Row="0" ItemsSource="{Binding}" MinRowHeight="50" RowHeight="50" AutoGenerateColumns="False" CanUserAddRows="False" Grid.ColumnSpan="2" Margin="0,0,0.333,0.333">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="ID Dispozitiv USB" Width="109">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel ClipToBounds="False">
+                                        <TextBox  IsReadOnly="True" Text="{Binding ID}" ClipToBounds="False" BorderBrush="{x:Null}"></TextBox>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Nume Dispozitiv USB" Width="219">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel ClipToBounds="False">
+                                        <TextBox  IsReadOnly="True" Text="{Binding Nume}" ClipToBounds="False" BorderBrush="{x:Null}"></TextBox>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <!-- <DataGridTextColumn Header="Capacitate Dispozitiv USB" Binding="{Binding Capacitate}" Width="155" IsReadOnly="True"/> -->
+                        <DataGridTextColumn Header="Tip Dispozitiv USB" Binding="{Binding Tip_dispozitiv}" Width="115" IsReadOnly="True" />
+                        <DataGridCheckBoxColumn Header="Activat/Dezactivat" Binding="{Binding Stare}" Width="115"/>
+                        <DataGridTextColumn Header="Conectat/Deconectat" Binding="{Binding Conectare}" Width="*"/>
+                    </DataGrid.Columns>
+
+                </DataGrid>
+                <Button Content="?" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="40" Width="75" FontSize="24" Click="Button_Click_5"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Loguri">
+            <Grid Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <ScrollViewer>
+                    <TextBox x:Name="textblockLoguri" Grid.Row="0" TextWrapping="Wrap" Text="" Foreground="#FFA2A1A1"/>
+                </ScrollViewer>
+                
+                <Grid Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="400" >
+                    <Button Content="Actualizare loguri" ToolTip="Se reincarca si se afiseaza logurile salvate" Grid.Row="1" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Center" Width="126.494" Height="40" FontSize="14" Click="Button_Click"/>
+                    <Button Content="Stergere loguri" ToolTip="Se sterg logurile salvate" Grid.Row="1" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Center" Width="126.494" Height="40" FontSize="14" Click="Button_Click_2"/>
+                    <Button Content="Salvare loguri" ToolTip="Se salveaza (exporta) logurile intr-un fisier de tip *.txt" Grid.Row="1" HorizontalAlignment="Right" Margin="0,10,0,0" VerticalAlignment="Top" Width="127" Height="40" FontSize="14" Click="Button_Click_3"/>
+                </Grid>
+                <Button Content="?" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="40" Width="75" FontSize="24" Click="Button_Click_5"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

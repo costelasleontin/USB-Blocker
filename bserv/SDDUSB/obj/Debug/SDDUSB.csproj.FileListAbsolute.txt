@@ -1,0 +1,10 @@
+C:\Users\Leo\source\repos\bserv\SDDUSB\bin\Debug\SDDUSB.dll
+C:\Users\Leo\source\repos\bserv\SDDUSB\bin\Debug\SDDUSB.pdb
+C:\Users\Leo\source\repos\bserv\SDDUSB\obj\Debug\SDDUSB.csproj.CoreCompileInputs.cache
+C:\Users\Leo\source\repos\bserv\SDDUSB\obj\Debug\SDDUSB.dll
+C:\Users\Leo\source\repos\bserv\SDDUSB\obj\Debug\SDDUSB.pdb
+C:\Users\coste\source\repos\bserv\SDDUSB\bin\Debug\SDDUSB.dll
+C:\Users\coste\source\repos\bserv\SDDUSB\bin\Debug\SDDUSB.pdb
+C:\Users\coste\source\repos\bserv\SDDUSB\obj\Debug\SDDUSB.csproj.CoreCompileInputs.cache
+C:\Users\coste\source\repos\bserv\SDDUSB\obj\Debug\SDDUSB.dll
+C:\Users\coste\source\repos\bserv\SDDUSB\obj\Debug\SDDUSB.pdb

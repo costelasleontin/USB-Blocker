@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USB Blocker", "BlocareUSB\USB Blocker.csproj", "{7164CE2F-35F3-47A1-BD7E-8F09B5561A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bserv", "bserv\bserv.csproj", "{06F9FCBA-0BE7-48AD-A012-784FDFAE741E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDDUSB", "SDDUSB\SDDUSB.csproj", "{0FE9B942-4542-4953-A0BE-C0DB226B3FAD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupBlocareUSB", "SetupBlocareUSB\SetupBlocareUSB.vdproj", "{CCC57DAE-3512-4CEE-9E10-30B53AF5A1EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7164CE2F-35F3-47A1-BD7E-8F09B5561A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7164CE2F-35F3-47A1-BD7E-8F09B5561A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7164CE2F-35F3-47A1-BD7E-8F09B5561A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7164CE2F-35F3-47A1-BD7E-8F09B5561A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F9FCBA-0BE7-48AD-A012-784FDFAE741E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F9FCBA-0BE7-48AD-A012-784FDFAE741E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F9FCBA-0BE7-48AD-A012-784FDFAE741E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F9FCBA-0BE7-48AD-A012-784FDFAE741E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE9B942-4542-4953-A0BE-C0DB226B3FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE9B942-4542-4953-A0BE-C0DB226B3FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE9B942-4542-4953-A0BE-C0DB226B3FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE9B942-4542-4953-A0BE-C0DB226B3FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC57DAE-3512-4CEE-9E10-30B53AF5A1EF}.Debug|Any CPU.ActiveCfg = Debug
+		{CCC57DAE-3512-4CEE-9E10-30B53AF5A1EF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE60FC37-49BB-4931-8B17-174C6B8C702D}
+	EndGlobalSection
+EndGlobal
