@@ -5,4 +5,5 @@ On windows XP it doesn't trigger device disable when enabling device posibly bec
 This is a work in progress so have some patience :P .
 App requires admin rights if installed in Program Files.
 If un installed it in Windows unprotected folders it doesn't require admin rights.
+App reguires .Net Framework 4 to be installed in system. Hopefully in the future ill rewrite project so it doesn't require this.
 After installation it requires a system restart for the service to start.
